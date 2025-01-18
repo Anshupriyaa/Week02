@@ -6,14 +6,14 @@ public class AreaOfCircle {
         AreaOfCircle(int radius){
             this.radius = radius;
         }
-    
+       // method to display AreaOfCircle
         void display(){
             System.out.println("Area of Circle of radius is "+this.radius + " is "+ Math.PI * Math.pow(radius,2 ));
         }
     
         public static void main(String[] args) {
             AreaOfCircle area = new AreaOfCircle(2);
-            area.display();
+            area.display();// function call
         }
     }
 
